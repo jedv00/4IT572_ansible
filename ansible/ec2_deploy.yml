@@ -5,7 +5,7 @@
   tasks: 
     - name: Launch EC2 instance
       amazon.aws.ec2:
-        instance_type: t2.micro
+        instance_type: t2.small
         image: ami-04902260ca3d33422
         region: us-east-1
         key_name: devops
@@ -55,6 +55,7 @@
         name: docker
         state: started
         enabled: yes
+      become: yes
     - name: Set rights to Docker
       shell: usermod -a -G docker ec2user
       become: yes 
