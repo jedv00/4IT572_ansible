@@ -15,7 +15,7 @@
         group: eshop
         wait: true
         aws_access_key: "ASIAWRQQVZQQ4QACBZWB"
-        aws_secret_key: "nSE2f8eKQ/UbX/8YqhS9wLizYAYwTOqbq8reHJV/""
+        aws_secret_key: "nSE2f8eKQ/UbX/8YqhS9wLizYAYwTOqbq8reHJV/"
         security_token: "FwoGZXIvYXdzEDoaDG48OlS1AB1qf4ri/yK3AfaX5QX3wcWrN5uwxNFERDdIwdEbfE0aLoNoMakkrAgukteXqFizm5wdJ8Ig+eLvGlncf7R/WKkfSsOoy0h+0DTkNQavlvLMxHqcUWy2fpOJhhwqJtx0tSuqlESwHCjGOtFwGJ5B+IooVsBb0LoV4pAzBjMPltlNf6xGnCAA95ORy6tObS70zdaE/0T9GhsR/ZmyBQUhBTlqIqCeRcfUVn6RLlUmB4i4zAPK+n/OdBBTWKEK8qI1byjPspmNBjItOOD8k5/b5+NusQlclYMfo7Ne84CTwQKfVAIWzx+f/yF0BcYicvx2rgmJyM2w"
       register: ec2
 
