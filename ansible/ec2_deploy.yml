@@ -8,7 +8,7 @@
         instance_type: t2.small
         image: ami-04902260ca3d33422
         region: us-east-1
-        key_name: devopss
+        key_name: devops
         vpc_subnet_id: subnet-08b44db6cc50eb6b4
         assign_public_ip: yes
         count: 1
